@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Calligraffitti|Frijole|Griffy|Jura|Monoton|Permanent+Marker|Roboto|Rock+Salt');
-
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
 
   /*************************************************************/
   /*****************ALWAYS INCLUDE SECTION**********************/
@@ -37,6 +37,7 @@ main {
 h1 {
     color: rgba(200, 200, 50, .8);
     }
+
 h2 {
     font-family: 'Rock Salt', cursive;
     text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
@@ -50,8 +51,24 @@ h2 {
     }
 
 h3 {
-    color: rgba(255,255,255, .8);
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    font-size: 30px;
+    font-weight: bold;
+    /*background: rgba(100, 200, 50, .8);*/
+    height: 10%;
+    width: 100%;
     }
+h4 {
+    font-family: 'Rock Salt', cursive;
+    /*text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);*/
+    font-size: 25px;
+    font-weight: bold;
+    /*background: rgba(100, 200, 50, .8);*/
+    height: 10%;
+    width: 100%;
+    }
+
 img {
     margin: 0 auto;
     padding: 1  0px;
@@ -59,12 +76,14 @@ img {
     width: 40%;
     /*box-shadow: 10px 10px 5px rgba(200, 200, 50, .8);*/
     }
+
 aside {
     /*float: left;*/
     background: rgba(255, 77, 0, 0);
     width: 100%;
     height: 20px;
     }
+
 li a {
     font-family: 'Calligraffitti', cursive;
     color: rgba(255, 77, 0, .7);
@@ -83,13 +102,16 @@ a:hover {
     color: black;
     /*padding: 5px 5px;*/
     }
+
 ol {
     background: rgba(0,0,0, .4);
     }
+
 p {
-    font-family: 'Griffy', cursive;
+    font-family: 'Arima Madurai', cursive;
     color: rgba(255, 255, 255, 1);
-    font-size: 2em;
+    font-size: 1.5em;
+    text-align: justify;
     }
 
   /*************************************************************/
@@ -107,6 +129,7 @@ p {
     padding: 50px;
     float: left;
     }
+
 .ftr{
     font-family: 'Roboto', cursive;
     text-align: center;
@@ -118,14 +141,17 @@ p {
     float: left;
     /*border-radius: 50%;*/
     }
+
 .address {
     font-size: 30px;
     padding: 5px;
     }
+
 .phone {
     padding: 5px;
     font-size: 20px;
     }
+
 .main-up {
    text-align: center;
    }
@@ -135,16 +161,15 @@ p {
     }
 
 .main-up-rt {
-
     float: right;
      border-style: solid;
     }
 
 .main-dn-rt {
-
     float: right;
      border-style: solid;
     }
+
  .fb-logo {
     height: 2%;
     width: 2%;
@@ -156,21 +181,24 @@ p {
     width: 2%;
     text-decoration: none;
     }
+
 .dg-menu {
-    width: 50px;
-    height: 2px;
+    width: 75px;
+    height: 4px;
     background-color: rgba(200, 200, 50, .8);
     color: white;
     box-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
     margin: 6px 0px;
-    font-size: 14px;
-}
+    font-size: 26px;
+    }
+
 .main-menu {
     font-family: 'Permanent Marker', cursive;
     text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
     font-size: 48px;
     text-align: center;
     }
+
 .gen-list{
     font-family: 'Permanent Marker', cursive;
     /*text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);*/
@@ -180,18 +208,46 @@ p {
     font-size: 28px;
     text-align: ;
     }
+
 .img-adj {
     width: 100%;
     height: 30%;
     background-color: rgba(0, 0, 0, .8);
     padding: 10px;
     }
+
 .miss-state-img{
     margin: 0 auto;
     display: block;
-    width: 75%;
+    width:50%;
     }
+
+.ms-text {
+     background-color: rgba(0, 0, 0, .8);
+     padding: 30px;
+    }
+
+.ms-h3-tag{
+    font-family: 'Rock Salt', cursive;
+    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    font-size: 30px;
+    font-weight: bold;
+    background: rgba(100, 200, 50, .8);
+    height: 10%;
+    width: 100%;
+    padding: 30px;
+    float: left;
 }
+
+.teach-bio-style{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 10px;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
 .under-const{
     width: 100%;
     height: 30%;
