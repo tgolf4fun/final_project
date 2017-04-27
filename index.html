@@ -4,9 +4,74 @@
             <meta charset="utf-8">
             <meta name="D&G Dance" content="Home page of the best dance studio around">
             <meta name="Dance" content="classes, studio, dance, hip-hop">
-            <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-            </script>
+            <script LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+ 		adImages = new Array("img/hmpg/ul/Black.jpg","img/hmpg/ul/Ellies_Girls.jpg","img/hmpg/ul/FreshPrince.jpg","img/hmpg/ul/Glee.jpg","img/hmpg/ul/J_no_jump.jpg","img/hmpg/ul/Jabba.jpg","img/hmpg/ul/Janet.jpg","img/hmpg/ul/Shake_the_Room.jpg")
+		thisImg = 0
+		imgCt= adImages.length
+			function upperLeft(){
+						if(document.images){
+									thisImg++
+										if (thisImg == imgCt){
+													thisImg = 0
+												     }
+													document.ul.src=adImages[thisImg]
+													setTimeout("upperLeft()", 6 * 1000)
+							           }
+					}
+
+
+          </script>
+            <script LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+ 		adImages = new Array("img/hmpg/ur/2.jpg","img/hmpg/ur/3.jpg","img/hmpg/ur/4.jpg","img/hmpg/ur/All_Cast.jpg","img/hmpg/ur/Annie.jpg","img/hmpg/ur/Bboy.jpg","img/hmpg/ur/BEATFEET.jpg")
+		thisImg = 0
+		imgCt= adImages.length
+			function upperRight(){
+						if(document.images){
+									thisImg++
+										if (thisImg == imgCt){
+													thisImg = 0
+												     }
+													document.ur.src=adImages[thisImg]
+													setTimeout("upperRight()", 3 * 1000)
+							           }
+					}
+
+
+        </script>
+        <script LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+ 		adImages = new Array("img/hmpg/ll/group.jpg","img/hmpg/ll/jazz.jpg","img/hmpg/ll/joycejl.jpg","img/hmpg/ll/logo_dance_online.jpg","img/hmpg/ll/lv_dancers.jpg","img/hmpg/ll/move.jpg","img/hmpg/ll/stay_with_me.jpg")
+		thisImg = 0
+		imgCt= adImages.length
+			function lowerLeft(){
+						if(document.images){
+									thisImg++
+										if (thisImg == imgCt){
+													thisImg = 0
+												     }
+													document.ll.src=adImages[thisImg]
+													setTimeout("lowerLeft()", 5 * 1000)
+							           }
+					}
+
+
+        </script>
+        <script LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+ 		adImages = new Array("img/hmpg/lr/aa.jpg","img/hmpg/lr/adults.jpg","img/hmpg/lr/all_grp.jpg","img/hmpg/lr/cute.jpg","img/hmpg/lr/dg13.jpg","img/hmpg/lr/glee_2.jpg","img/hmpg/lr/Thurs Girls.jpg")
+		thisImg = 0
+		imgCt= adImages.length
+			function lowerRight(){
+						if(document.images){
+									thisImg++
+										if (thisImg == imgCt){
+													thisImg = 0
+												     }
+													document.lr.src=adImages[thisImg]
+													setTimeout("lowerRight()", 7 * 1000)
+							           }
+					}
+
+
+        </script>
 	    <title>
             D & G Dance
         </title>
@@ -14,7 +79,7 @@
             <link rel="stylesheet" href = "css/normalize.css">
 		    <link rel="stylesheet" href="css/style.css">
         </head>
-    <body>
+    <body onload="upperLeft(), upperRight(), lowerLeft(), lowerRight()">
         <header class="clearfix">
             <div class="hdr" id="hdr-main"><h1>D & G Dance Company</h1>
                 <div>
@@ -29,19 +94,13 @@
             </div>
 
         </header>
-        <aside id="index-scroll">
-             Here
-             Here
-             Here
-             Here
-             Here
-             Here
-             Here
-            </aside>
+        <!--<aside class="scroll" id="ticker">
+        </aside>-->
         <nav id="hdr-menu">
              <hr>
             <p class="main-menu">Menu</p>
                 <ol>
+                    <li><a href="pages/show_info_pg.html">2017 Show Info Page</a></li>
                     <li><a href="pages/class_desc.html">Class Descriptions</a></li>
                     <li><a href="pages/dance30.html">Dance 30!!</a></li>
                     <li><a href="pages/class_sched_fees.html">Class Schedule/Fees</a></li>
@@ -59,12 +118,12 @@
             </nav>
         <main class="">
             <div class="main-up">
-            <img src="img/ms.jpg" alt="Main Image">
-            <img src="img/ms.jpg" alt="Main Image">
+            <img name="ul" src="img/ms.jpg" alt="Main Image">
+            <img name="ur" src="img/ms.jpg" alt="Main Image">
             </div>
             <div class="main-dn">
-            <img src="img/ms.jpg" alt="Main Image">
-            <img src="img/ms.jpg" alt="Main Image">
+            <img name="ll" src="img/ms.jpg" alt="Main Image">
+            <img name="lr" src="img/ms.jpg" alt="Main Image">
             </div>
         </main>
         <footer class="ftr">
@@ -75,15 +134,19 @@
                 <a href="mailto:dancegrooveswithjeffielou@gmail.com"><img class="em-logo" src="img/email_logo.png" alt="email logo"></a>
             </div>
 
-            <div class= id="ftr-main">Content property of D & G Dance
-            <div class= ><p id="ftr-date">&copy; 2009
+            <div class= id="ftr-main">Content property of D & G Dance</div>
+            <div>
+                <p id="ftr-date">&copy; 2009
                 <script>
                     new Date().getFullYear()>document.write("-"+new Date().getFullYear());
-                </script></p></div><!-- creating space at the top of the page-->
+                </script>
+                </p>
+            </div><!-- creating space at the top of the page-->
         </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.js"
     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
     crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
+
     </body>
 </html>
