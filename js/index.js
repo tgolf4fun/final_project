@@ -1,19 +1,14 @@
     $(document).ready(function(){
     console.log("LETS GO!!");
     $('#hdr-menu').hide();
-    //$('.show-pics').hide();
-    //$('.show-dr').hide();
-    //$('.show-per').hide();
-
     $('#dg-menu').click(menuAction);
 
     function menuAction(){
-    event.preventDefault();
-    $('#hdr-menu').fadeIn(2000);
+    //event.preventDefault();
+    $('#hdr-menu').slideDown("slow");
     $('.main-up').hide();
     $('.main-dn').hide();
     $('#submit-btn').hide();
-    $('#index-scroll').hide();
      }
 
     // create an array of classes

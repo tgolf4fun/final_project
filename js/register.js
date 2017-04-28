@@ -16,5 +16,5 @@ var myPgemail = GetURLParameter('email');
 var myStu = GetURLParameter('stu1');
 var myPgname = myPgname.replace("+", " ");
 
- $('#register').html("Thank you" + " " + myPgname + " " + "for signing up" + " " + myStu + " " + "for classes at D@G Dance studio.");
+ $('#register').html("Thank you" + " " + myPgname + " " + "for signing up" + " " + myStu + " " + "for classes at D@G Dance studio. Be sure to check any emails received from dancegrooveswithjeffielou@gmail.com, we have the following email address as a contact email for you:" + " " + myPgemail );
 //console.log(Pgname);

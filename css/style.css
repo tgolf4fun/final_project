@@ -323,18 +323,18 @@ p {
     }
 .show-pics{
     background: rgba(255, 77, 0, .7);
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 0px;
+    padding: 10px;
     }
 .show-dr{
     background: rgba(100, 200, 50, .8);
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 0px;
+    padding: 10px;
     }
 .show-per{
     background: rgba(200, 200, 50, .8);
-    border-radius: 10px;
-    padding: 30px;
+    border-radius: 0px;
+    padding: 10px;
     }
 .scroll{
     background: rgba(100, 200, 50, .8);
@@ -401,12 +401,10 @@ nav {
 .main-dn-rt {
     display: none;
     }
-h2 {
+h1, h2, h3, h4 {
     font-size: 1em;
     }
 p {
     font-size: 1em;
     }
-
-
 }
