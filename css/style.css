@@ -214,9 +214,9 @@ p {
 
 .img-adj {
     width: 100%;
-    height: 30%;
+    height: 10%;
     background-color: rgba(0, 0, 0, .8);
-    padding: 10px;
+    padding: 20px;
     }
 
 .miss-state-img{
@@ -373,6 +373,8 @@ p {
 #register{
      background-color: rgba(0, 0, 0, .8);
      padding: 30px;
+     font-family: 'Roboto', cursive;
+     font-size: 2em;
     }
 
 nav {

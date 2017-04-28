@@ -5,7 +5,7 @@
 
     function menuAction(){
     //event.preventDefault();
-    $('#hdr-menu').slideDown("slow");
+    $('#hdr-menu').slideDown(2000);
     $('.main-up').hide();
     $('.main-dn').hide();
     $('#submit-btn').hide();
