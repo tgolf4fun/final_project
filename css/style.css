@@ -35,15 +35,15 @@ main {
     }
 
 h1 {
-    color: rgba(200, 200, 50, .8);
+    color: rgba(233, 66, 47, .8);
     }
 
 h2 {
     font-family: 'Rock Salt', cursive;
-    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, .7);
     font-size: 40px;
     font-weight: bold;
-    background: rgba(100, 200, 50, .8);
+    background: rgba(233, 66, 47, .8);
     height: 10%;
     width: 100%;
     padding: 30px 0px;
@@ -52,7 +52,7 @@ h2 {
 
 h3 {
     font-family: 'Rock Salt', cursive;
-    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    text-shadow: 10px 10px 5px rgba(233, 66, 47, .7);
     font-size: 30px;
     font-weight: bold;
     height: 10%;
@@ -64,7 +64,7 @@ h4 {
     /*text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);*/
     font-size: 25px;
     font-weight: bold;
-    background: rgba(100, 200, 50, .8);
+    background: rgba(233, 66, 47, .8);
     height: 10%;
     width: 100%;
     }
@@ -72,8 +72,8 @@ h4 {
 img {
     margin: 0 auto;
     padding: 1  0px;
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
     /*box-shadow: 10px 10px 5px rgba(200, 200, 50, .8);*/
     }
 
@@ -85,8 +85,8 @@ aside {
     }
 
 li a {
-    font-family: 'Calligraffitti', cursive;
-    color: rgba(255, 77, 0, .7);
+    font-family: 'Roboto', cursive;
+    color: rgba(233, 66, 47, .7);
     font-size: 2em;
     text-align: center;
     margin: 20px 0px 20px 0px;
@@ -97,7 +97,7 @@ li a {
     }
 
 a:hover {
-    background: rgba(255, 77, 0, 1);
+    background: rgba(255, 255, 255, .7);
     border-radius: 5px;
     color: black;
     /*padding: 5px 5px;*/
@@ -124,7 +124,7 @@ p {
 
 .hdr {
     font-family: 'Rock Salt', cursive;
-    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    text-shadow: 10px 10px 5px rgba(255, 255, 255, .7);
     font-size: 40px;
     font-weight: bold;
     /*background: rgba(100, 200, 50, .8);*/
@@ -137,7 +137,7 @@ p {
     font-family: 'Roboto', cursive;
     text-align: center;
     font-weight: bold;
-    background: rgba(200, 200, 50, .8);
+    background: rgba(233, 66, 47, .8);
     height: 5%;
     width: 100%;
     padding: 20px 0px;
@@ -188,16 +188,16 @@ p {
 .dg-menu {
     width: 75px;
     height: 4px;
-    background-color: rgba(200, 200, 50, .8);
+    background-color: rgba(233, 66, 47, .8);
     color: white;
-    box-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, .7);
     margin: 6px 0px;
     font-size: 26px;
     }
 
 .main-menu {
     font-family: 'Permanent Marker', cursive;
-    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    text-shadow: 10px 10px 5px rgba(233, 66, 47, .7);
     font-size: 48px;
     text-align: center;
     }
@@ -232,10 +232,10 @@ p {
 
 .ms-h3-tag{
     font-family: 'Rock Salt', cursive;
-    text-shadow: 10px 10px 5px rgba(255, 77, 0, .7);
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, .7);
     font-size: 30px;
     font-weight: bold;
-    background: rgba(100, 200, 50, .8);
+    background: rgba(233, 66, 47, .8);
     height: 10%;
     width: 100%;
     padding: 30px 0px 30px 10px;
@@ -253,11 +253,11 @@ p {
     margin: 10px;
     }
 .dgshow{
-    background: rgba(200, 200, 50, .8);
+    background: rgba(0, 0, 0, .8);
     padding: 0px 0px 30px 0px;
     }
 .fees{
-    background: rgba(200, 200, 50, .8);
+    background: rgba(233, 66, 47, .8);
     color: red;
     }
 
@@ -317,8 +317,8 @@ p {
     margin: 40px 300px 40px 0px;
     padding: 10px;
     color: yellow;
-    background: rgba(100, 200, 50, .8);
-    border-radius: 40%;
+    background: rgba(233, 66, 47, .8);
+    /*border-radius: 40%;*/
     font-family: 'Rock Salt', cursive;
     }
 .show-pics{
@@ -339,6 +339,12 @@ p {
 .scroll{
     background: rgba(100, 200, 50, .8);
     }
+
+.ds-info{
+    font-size: 1.25em;
+    line-height: 2;
+    }
+
   /*************************************************************/
   /**************************ID SECTION*************************/
   /*************************************************************/
@@ -367,7 +373,7 @@ p {
     padding: 15px 15px 15px 0px;
     }
 #hdr-menu {
-     background: rgba(200, 200, 50, .2);
+     background: rgba(233, 66, 47, .2);
      display: none;
      }
 #register{
@@ -383,6 +389,43 @@ nav {
 
     }
 
+/****************************************/
+/*Marquee*/
+/****************************************/
+.marquee {
+  height: 40px;
+  width: 1200px;
+  font-family: 'Permanent Marker', cursive;
+  color:  rgba(255, 255, 255, .8);
+  font-size: 2em;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 100%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+
+  animation: marquee 30s linear infinite;
+}
+
+.marquee span {
+  float: right;
+  width: 100%;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
 /****************************************/
 /*Media Query Section*/
 /****************************************/
@@ -410,3 +453,5 @@ p {
     font-size: 1em;
     }
 }
+
+
